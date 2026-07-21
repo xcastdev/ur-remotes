@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row>
+		<button text="Select Next Playback Device" ontap="selectnextplayback" />
+	</row>
+	<row>
+		<button text="Main + Top" ontap="profile0" />
+	</row>
+	<row>
+		<button text="Main" ontap="profile1" />
+	</row>
+	<row>
+		<button text="Top" ontap="profile2" />
+	</row>
+	<row>
+		<button text="TV" ontap="profile3" />
+	</row>
+	<row>
+		<button text="TV + Top" ontap="profile4" />
+	</row>
+	<row>
+		<button text="Main + Top + TV" ontap="profile5" />
+	</row>
+</layout>

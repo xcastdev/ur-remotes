@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row>
+		<label id="np_title" text="[Nothing playing]" textAlign="center" />
+	</row>
+	<row>
+		<label id="np_artist" text="" textAlign="center" />
+	</row>
+	<row>
+		<label id="np_status" text="stopped" textAlign="center" />
+	</row>
+	<row weight="2">
+		<button text="Prev" ontap="previous" />
+		<button text="Play/Pause" ontap="play_pause" />
+		<button text="Next" ontap="next" />
+		<button text="Stop" ontap="stop" />
+	</row>
+	<row>
+		<slider id="volume" text="Volume" progress="0" progressmax="100" onchange="set_volume" />
+	</row>
+	<row>
+		<toggle id="mute" text="Mute" checked="false" onchange="set_mute" />
+	</row>
+</layout>

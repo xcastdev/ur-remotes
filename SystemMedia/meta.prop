@@ -1,0 +1,6 @@
+meta.name: System Media
+meta.author: Me
+meta.description: System-wide media transport, precise volume/mute, and live now-playing (for Home Assistant).
+meta.platform: windows
+meta.tags: custom
+meta.tags.category: media
